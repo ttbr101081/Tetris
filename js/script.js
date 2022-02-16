@@ -1,26 +1,4 @@
-/*
 
-  ____          _____               _ _           _       
- |  _ \        |  __ \             (_) |         | |      
- | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
- |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
- | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
- |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
-         __/ |                               __/ |        
-        |___/                               |___/         
-    
-____________________________________
-/ Si necesitas ayuda, contáctame en \
-\ https://parzibyte.me               /
- ------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-Creado por Parzibyte (https://parzibyte.me). Este encabezado debe mantenerse intacto,
-excepto si este es un proyecto de un estudiante.
-*/
 let LONGITUD_CUADRADO = screen.width > 420 ? 30 : 20;
 const COLUMNAS = 10;
 const FILAS = 20;
@@ -596,17 +574,3 @@ const pierde = () => {
     return false;
 };
 
-Swal.fire("Bienvenido", `Port casi perfecto del juego de Tetris en JavaScript.
-<br>
-<strong>Controles:</strong>
-<ul class="list-group">
-<li class="list-group-item"> <kbd>P</kbd><br>Pausar o reanudar </li>
-<li class="list-group-item"> <kbd>Espacio</kbd><br>Rotar</li>
-<li class="list-group-item"> <kbd>Flechas de dirección</kbd><br>Mover figura hacia esa dirección</li>
-<li class="list-group-item"><strong>También puedes usar los botones si estás en móvil</strong></li>
-</ul>
-<strong>Creado por <a href="https://parzibyte.me/blog">Parzibyte</a></strong>
-<br>
-Gracias a <a target="_blank" href="https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ">Bulby</a> por la música de fondo
-y a <a href="https://freesound.org/people/grunz/sounds/109662/">Freesound.org</a> por el sonido al completar una línea
-`);
